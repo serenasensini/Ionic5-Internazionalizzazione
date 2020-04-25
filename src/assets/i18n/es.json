@@ -1,0 +1,7 @@
+{
+  "lingua": "Espanol",
+  "titolo": "Hola!",
+  "titolo_alternativo": "Hola {{value}}",
+  "descrizione": "Vees qué el texto ahora hay la traducciòn!",
+  "data": {"name": "Me llamo {{name}}"}
+}

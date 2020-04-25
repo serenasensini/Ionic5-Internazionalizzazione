@@ -1,0 +1,7 @@
+{
+  "lingua": "Italiano",
+  "titolo": "Ciao!",
+  "titolo_alternativo": "Buongiorno {{value}}",
+  "descrizione": "Al momento il testo è in italiano",
+  "data": {"name": "Mi chiamo {{name}}"}
+}

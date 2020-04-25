@@ -1,17 +1,27 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Tab 1
+      Homepage
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
+<ion-content [fullscreen]="true" class="ion-padding">
   <ion-header collapse="condense">
     <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
+      <ion-title size="large">
+        {{ 'titolo' | translate:params }}
+      </ion-title>
     </ion-toolbar>
   </ion-header>
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+  <p>{{ 'titolo_alternativo' | translate:params }} </p>
+  <p>{{ 'descrizione' | translate:params }} </p>
+
+  <ion-select placeholder="{{ 'lingua' | translate }}" [(ngModel)]="selectedLanguage" (ionChange)="changeLang()">
+    <ion-select-option value="fr">Francais</ion-select-option>
+    <ion-select-option value="es">Espanol</ion-select-option>
+    <ion-select-option value="en">English</ion-select-option>
+  </ion-select>
+
 </ion-content>

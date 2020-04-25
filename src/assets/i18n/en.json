@@ -1,0 +1,7 @@
+{
+  "lingua": "English",
+  "titolo": "Hello!",
+  "titolo_alternativo": "What's up {{value}} ?",
+  "descrizione": "Now we have set the English translation!",
+  "data": {"name": "My name isa {{name}}"}
+}

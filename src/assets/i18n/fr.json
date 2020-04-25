@@ -1,0 +1,7 @@
+{
+  "lingua": "Francais",
+  "titolo": "Bonjour!",
+  "titolo_alternativo": "Bonjour {{value}}",
+  "descrizione": "Maintenant le text est traduit en francés!",
+  "data": {"name": "Je m'appelle {{name}}"}
+}
